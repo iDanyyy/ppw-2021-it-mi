@@ -1,5 +1,5 @@
 body{
-    width: 1000px;
+    width: 1150px;
     margin: 0 auto;
 }
 
@@ -58,7 +58,9 @@ header nav a.button{
     vertical-align: middle;
     line-height: 40px;
 }
-
+section{
+    height: 750px;
+}
 section#main{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -102,53 +104,163 @@ section#main div a{
     background: #F9BDBD;
     border-bottom-left-radius: 100px;
 }
-#lefttop{
+#flowers2{
     position: relative;
-    width: 181.9px;
-    height: 159.17px;
-    right: 30px;
     bottom: 350px;
-    border: 1px solid rgba(137, 66, 66, 0.2);
-    box-sizing: border-box;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
-    height: 159,17px;
-    width: 181,9px;
-    border-top-right-radius: 80px;
-    border-bottom-left-radius: 80px;
+    right: 50px;
 }
-#righttop{
+header figure{
     position: relative;
-    width: 159.17px;
-    height: 181.9px;
-    left: 590px;
-    top: -1175px;
-    border: 1px solid rgba(137, 66, 66, 0.2);
-    box-sizing: border-box;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
+    top: 15px;
 }
-#leftbottom{
+header figure img{
     position: relative;
-    width: 159.17px;
-    height: 181.9px;
-    right: 5px;
-    top: -980px;
-    border: 1px solid rgba(137, 66, 66, 0.2);
-    box-sizing: border-box;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
+    top: 8px;
 }
-#rightbottom{
+header figure figcaption{
+    font-size: 36px;
+    font-weight: bold;
+}
+#art1{
+    height: 500px;
+}
+section#about{
+    height: 600px;
+}
+section#about header{
+    height: 80px;
+    margin: 20px;
+}
+header #about_us {
     position: relative;
-    width: 181.9px;
-    height: 159.17px;
-    left: 592px;
-    top: -1160px;
-    border: 1px solid rgba(137, 66, 66, 0.2);
-    box-sizing: border-box;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
-    border-top-right-radius: 80px;
-    border-bottom-left-radius: 80px;
+    left: 250px;
+    width: 379px;
+    height: 98px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+    color: rgba(34, 34, 34, 0.1);
+    margin: 0;
+}
+
+header #hr1{
+    width: 420px;
+    height: 1px;
+    position: relative;
+    bottom: 65px;
+    left: 250px;
+    color: black;
+    background: black;
+}
+section#about article{
+    margin-top: 50px;
+}
+section#about article #yellow{
+    position: absolute;
+    width: 278px;
+    height: 388px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background: #F7DEA6;
+}
+section#about article #woodies2{
+    grid: initial; position: relative;
+    left: 600px;   bottom: 250px;
+    width: 450px;  height: 98px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+    margin: 0px;
+}
+section#about article #answer{
+    position: relative;
+    left: 600px;
+    bottom: 240px;
+    width: 448px;
+    height: 66px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+} 
+#flower2{
+    position: relative;
+    bottom: 260px;
+    right: 200px;
+
+}
+#kalmar{
+    position: relative;
+    top: 50px;
+}
+#art2 header{
+    grid: initial;
+    position: relative;
+    width: 648px;
+    top: 25px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+}
+#art2 p{
+    position: relative;
+    left: 25px;
+    bottom: 15px;
+}
+#steel{
+    position: relative;
+    left: 860px;
+    bottom: 250px;
+}
+#how{
+    position: relative;
+    top: 400px;
+    height: 600px;
+}
+#custom{
+    position: relative;
+    width: 254px;
+    height: 49px;
+    left: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin: 0px;
+    color: #3E3F43;
+}
+#hr2{
+    position: relative;
+    left: 200px;
+    right: 800px;
+    width: 120px;
+    bottom: 65px;
+    height: 1px;
+    background: black;
+}
+#work{
+    position: relative;
+    margin: 0px;
+    width: 579px;
+    height: 98px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+    left: 80px;
+    color: rgba(34, 34, 34, 0.1);
 }
