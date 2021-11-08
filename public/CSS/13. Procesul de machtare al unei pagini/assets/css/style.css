@@ -109,7 +109,7 @@ section#main div a{
     bottom: 350px;
     right: 50px;
 }
-header figure{
+header #fig2{
     position: relative;
     top: 15px;
 }
@@ -263,4 +263,180 @@ section#about article #answer{
     text-align: right;
     left: 80px;
     color: rgba(34, 34, 34, 0.1);
+}
+#a1{
+    display: inline-block;
+}
+#a2{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+#a3{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+#a4{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+}
+.p1{
+    position: absolute;
+    width: 238px;
+    height: 33px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+#GPN_buton{
+    display: block;
+    position: relative;
+    width: 212px;
+    height: 50px;
+    left: 450px;
+    top: 200px;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    background: #DAA520;
+    border-radius: 4px;
+}
+#categories{
+    position: relative;
+    top: 500px;
+    height: 800px;
+}
+#category{
+    position: relative;
+    width: 454px;
+    height: 98px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+    bottom: 25px;
+    left: 290px;
+    margin: 0px;
+    color: rgba(34, 34, 34, 0.1);
+}
+#hr3{
+    position: relative;
+    width: 350px;
+    bottom: 80px;
+    left: 300px;
+}
+#desk{
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    height: 400px;
+    width: 280px;
+    top: 800;
+}
+#imgdesk{
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+}
+#chair{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+}
+#imgcha{
+    position: relative;
+    z-index: 2;
+    bottom: 120px;
+    left: 50px;
+}
+#kitchenware{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+}
+#imgkit{
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+    left: 40px;
+}
+#BookShelf{
+    display: block;
+    position: relative;
+    bottom: 200px;
+    height: 400px;
+    width: 280px;
+
+}
+#imgbook{
+    position: relative;
+    z-index: 2;
+    bottom: 95px;
+    left: 55px;
+}
+#electronics{
+    display: inline-block;
+    position: relative;
+    bottom: 600px;
+    left: 432px;
+}
+#imgelectr{
+    position: relative;
+    z-index: 2;
+    bottom: 50px;
+    left: 25px;
+}
+.divCategory{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    top: 300px;
+    z-index: 1;
+    background: #F9BDBD;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.p2{
+    position: relative;
+    width: 57px;
+    height: 33px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #3E3F43;
+    z-index: 2;
+    bottom: 100px;
+    left: 20px;
+}
+.ShopNow{
+    position: relative;
+    display: block;
+    width: 123px;
+    height: 40px;
+    background: #F9BDBD;
+    border: 1px solid #3E3F43;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    z-index: 2;
+    bottom: 80px;
+    left: 140px;
+
 }
